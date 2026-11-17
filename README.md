@@ -13,8 +13,8 @@ Source script for the automated installer of the Polish localization (`Spolszcze
 4. Creates an uninstaller shortcut (`Usunięcie spolszczenia` / *Remove Polish Translation*) in the main game folder that restores the original `.bak` files upon removal.
 
 ## How to build the executable
-1. Download and install [Inno Setup 6](https://jrsoftware.org).
-2. Open the `.iss` script file from this repository in **Inno Setup Compiler**.
+1. Download and install [Inno Setup 6](https://jrsoftware.org) (or newer, e.g. Inno Setup 7).
+2. Open the `InstalatorSpolszczenieWarcraftIRemaster.iss` script file from this repository in **Inno Setup Compiler**.
 3. Update the `Source:` path under `[Files]` to point to the `data` folder from the manual mod release.
 4. Press `F9` (**Build -> Compile**) to generate `Warcraft_I_Remastered_Spolszczenie_v1.0.exe`.
 
@@ -33,7 +33,7 @@ Skrypt źródłowy automatycznego instalatora polskiej wersji językowej (`Spols
 4. Tworzy w głównym katalogu gry skrót deinstalatora (`Usunięcie spolszczenia`), który po uruchomieniu przywraca oryginalne pliki z kopii `.bak`.
 
 ## Jak skompilować plik wykonywalny (.exe)
-1. Pobierz i zainstaluj program [Inno Setup 6](https://jrsoftware.org).
-2. Otwórz plik skryptu `.iss` z tego repozytorium w programie **Inno Setup Compiler**.
+1. Pobierz i zainstaluj program [Inno Setup 6](https://jrsoftware.org) (lub nowszy, np. Inno Setup 7).
+2. Otwórz plik `InstalatorSpolszczenieWarcraftIRemaster.iss` z tego repozytorium w programie **Inno Setup Compiler**.
 3. Zaktualizuj ścieżkę `Source:` w sekcji `[Files]`, wskazując na folder `data` z manualnej paczki spolszczenia.
 4. Naciśnij klawisz `F9` (**Build -> Compile**), aby wygenerować gotowy plik `Warcraft_I_Remastered_Spolszczenie_v1.0.exe`.
